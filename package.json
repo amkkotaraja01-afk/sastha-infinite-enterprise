@@ -1,0 +1,13 @@
+{
+  "name": "sastha-infinite-enterprise-portal",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sastha Infinite Enterprise website, enquiries, support tickets and admin portal",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
