@@ -2,17 +2,86 @@
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#090909"><title>Sastha Infinite Enterprise | Excellence • Innovation</title>
 <style>
 :root{--gold:#d9ad54;--gold2:#f4d98a;--black:#090909;--panel:#151515;--muted:#b9b3a7;--line:#383126;--white:#fffaf0}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#090909;color:var(--white);font-family:Inter,Segoe UI,Arial,sans-serif;line-height:1.55}a{color:inherit;text-decoration:none}button,input,select,textarea{font:inherit}button,.btn{border:1px solid var(--gold);border-radius:10px;padding:12px 16px;background:linear-gradient(135deg,#f3d98f,#b9852e);color:#15110a;font-weight:800;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;gap:8px}.btn.secondary,button.secondary{background:transparent;color:var(--gold2)}button:hover,.btn:hover{filter:brightness(1.1)}.wrap{width:min(1160px,92%);margin:auto}.top{border-bottom:1px solid var(--line);position:sticky;top:0;z-index:10;background:#090909ed;backdrop-filter:blur(14px)}nav{display:flex;align-items:center;justify-content:space-between;gap:18px;min-height:78px}.brand{display:flex;align-items:center;gap:12px;font-weight:900;letter-spacing:.05em}.brand img{width:56px;height:56px;object-fit:contain}.brand small{display:block;color:var(--gold);font-size:10px;letter-spacing:.2em}nav .links{display:flex;gap:20px;align-items:center;font-size:13px;color:#e7dfcf}nav .links a:hover{color:var(--gold2)}.hero{padding:76px 0 58px;background:radial-gradient(ellipse at 75% 30%,#4c371c 0%,#17120b 22%,#090909 60%)}.hero-grid{display:grid;grid-template-columns:1.2fr .8fr;gap:48px;align-items:center}.eyebrow{color:var(--gold2);text-transform:uppercase;letter-spacing:.2em;font-size:12px;font-weight:800}.hero h1{font-size:clamp(38px,6vw,68px);line-height:1.04;letter-spacing:-.04em;margin:15px 0}.gold{color:var(--gold2)}.lead{color:#d0c8ba;font-size:18px;max-width:650px}.actions{display:flex;gap:12px;flex-wrap:wrap;margin:26px 0}.hero-logo{display:grid;place-items:center;min-height:300px}.hero-logo img{width:min(100%,360px);filter:drop-shadow(0 0 38px #d7a64b25)}.trust{display:flex;gap:22px;flex-wrap:wrap;color:#d4c7ac;font-size:13px}.trust span:before{content:"✦";color:var(--gold);margin-right:8px}section{padding:66px 0;border-top:1px solid #28231b}.section-head{max-width:700px;margin-bottom:28px}.section-head h2{font-size:clamp(28px,4vw,42px);margin:8px 0}.section-head p{color:var(--muted)}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.card{background:linear-gradient(160deg,#191919,#101010);border:1px solid var(--line);border-radius:16px;padding:22px;min-width:0}.card .symbol{font-size:25px;color:var(--gold2)}.card h3{margin:9px 0 5px}.card p{color:var(--muted);font-size:14px}.card a{color:var(--gold2);font-weight:800;font-size:13px}.quick{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-top:28px}.quick a{border:1px solid var(--line);border-radius:13px;padding:18px;background:#14120f}.quick strong{display:block}.quick span{color:var(--muted);font-size:12px}.two{display:grid;grid-template-columns:1fr 1fr;gap:24px}.form-card{background:#121212;border:1px solid var(--line);border-radius:16px;padding:24px}.fields{display:grid;grid-template-columns:1fr 1fr;gap:14px}.field{display:flex;flex-direction:column;gap:6px}.field.full{grid-column:1/-1}label{font-size:13px;color:#e4d7bd;font-weight:700}input,select,textarea{width:100%;background:#080808;border:1px solid #484032;border-radius:9px;padding:12px;color:white;outline:none}input:focus,select:focus,textarea:focus{border-color:var(--gold)}textarea{min-height:120px;resize:vertical}.note{font-size:12px;color:var(--muted)}.result{display:none;border:1px solid #6d572a;background:#211b10;padding:14px;border-radius:10px;margin-top:12px;overflow-wrap:anywhere}.products{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.product{padding:18px;border-radius:13px;border:1px solid var(--line);background:#131313}.product small{color:var(--gold2)}.company-details{display:grid;grid-template-columns:1fr 1fr;gap:12px}.detail{padding:16px;border:1px solid var(--line);border-radius:12px}.detail small{display:block;color:var(--muted)}footer{padding:34px 0;color:var(--muted);font-size:13px;border-top:1px solid var(--line)}.footrow{display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap}.admin{background:#101010}.hidden{display:none!important}.tablewrap{overflow:auto}table{width:100%;border-collapse:collapse;font-size:13px}th,td{padding:11px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}th{color:var(--gold2)}.status{color:var(--gold2);font-weight:800}.admin-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:16px 0}.metric{border:1px solid var(--line);padding:16px;border-radius:12px;background:#181818}.metric b{font-size:28px;display:block;color:var(--gold2)}.inline{display:flex;gap:8px;flex-wrap:wrap;align-items:center}.inline select,.inline input{width:auto;min-width:120px}.alert{color:#ffd88a;margin-top:10px}.support-status{margin-top:10px}.tiny{font-size:11px;color:#aaa}.mobile-menu{display:none}
-/* Subtle premium logo motion */
-.brand img{animation:logoFloat 4.8s ease-in-out infinite;transform-origin:center;transition:filter .35s ease}
-.brand:hover img{filter:drop-shadow(0 0 10px #f4d98a88)}
-.hero-logo img{animation:logoFloat 5s ease-in-out infinite,logoGlow 3.8s ease-in-out infinite;transform-origin:center}
-@keyframes logoFloat{0%,100%{transform:translateY(0) rotate(0deg)}50%{transform:translateY(-8px) rotate(1deg)}}
-@keyframes logoGlow{0%,100%{filter:drop-shadow(0 0 18px #d7a64b22)}50%{filter:drop-shadow(0 0 34px #d7a64b70)}}
-@media(prefers-reduced-motion:reduce){.brand img,.hero-logo img{animation:none!important;transition:none!important}}
-@media(max-width:850px){nav .links{display:none}.mobile-menu{display:inline-flex}.hero-grid,.two{grid-template-columns:1fr}.hero{padding-top:45px}.hero-logo{min-height:160px}.hero-logo img{width:200px}.grid,.products{grid-template-columns:repeat(2,1fr)}.quick{grid-template-columns:repeat(2,1fr)}}
-@media(max-width:560px){.grid,.products,.fields,.company-details{grid-template-columns:1fr}.field.full{grid-column:auto}.hero h1{font-size:40px}.hero-logo{display:none}.form-card{padding:16px}.quick{gap:8px}.quick a{padding:14px}.admin-grid{grid-template-columns:1fr 1fr}nav{min-height:68px}.brand img{width:46px;height:46px}}
+
+/* Responsive layout: tablet, mobile and small-screen support */
+img,svg,video,canvas{max-width:100%;height:auto}
+.wrap{width:min(1160px, calc(100% - 40px))}
+.grid,.products,.hero-grid,.two,.fields,.company-details{min-width:0}
+.card,.product,.form-card,.detail{min-width:0;overflow-wrap:anywhere}
+.mobile-menu{display:none}
+.mobile-links{display:none}
+.mobile-links[hidden]{display:none!important}
+@media(max-width:1000px){
+  nav .links{gap:12px;font-size:12px}
+  nav{gap:12px}
+  .brand{letter-spacing:.025em;gap:8px}
+  .brand img{width:48px;height:48px}
+  .hero-grid{gap:26px}
+  .grid,.products{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media(max-width:760px){
+  .wrap{width:calc(100% - 32px)}
+  nav{min-height:68px;gap:10px;flex-wrap:wrap}
+  nav .links{display:none}
+  .brand{font-size:13px;flex:1;min-width:0}
+  .brand img{width:42px;height:42px;flex:0 0 auto}
+  .brand small{font-size:8px;letter-spacing:.13em}
+  .nav-contact{padding:10px 11px;font-size:12px;white-space:nowrap}
+  .mobile-menu{display:inline-flex;padding:10px 12px;font-size:13px;white-space:nowrap}
+  .mobile-links:not([hidden]){display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;padding:0 0 14px}
+  .mobile-links a{padding:12px;border:1px solid var(--line);border-radius:10px;background:#14120f;font-size:14px}
+  .hero{padding:42px 0 38px}
+  .hero-grid,.two{grid-template-columns:minmax(0,1fr);gap:22px}
+  .hero h1{font-size:clamp(34px,8vw,52px);overflow-wrap:anywhere}
+  .eyebrow{font-size:10px;letter-spacing:.14em}
+  .lead{font-size:16px}
+  .hero-logo{min-height:0;display:grid}
+  .hero-logo img{width:160px}
+  .actions{gap:10px;margin:20px 0}
+  .actions .btn{flex:1 1 180px}
+  .trust{gap:10px 16px}
+  section{padding:46px 0}
+  .section-head{margin-bottom:22px}
+  .grid,.products{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+  .card,.product{padding:17px;border-radius:13px}
+  .quick{grid-template-columns:repeat(2,minmax(0,1fr));gap:9px;margin-top:22px}
+  .quick a{padding:13px;min-width:0;overflow-wrap:anywhere}
+  .form-card{padding:18px}
+  .fields{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+  input,select,textarea{min-width:0;font-size:16px}
+  .company-details{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .admin-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .tablewrap{max-width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch}
+  table{min-width:560px}
+  footer{padding:26px 0}
+}
+@media(max-width:480px){
+  .wrap{width:calc(100% - 28px)}
+  .brand{font-size:11px;gap:7px}
+  .brand img{width:36px;height:36px}
+  .brand small{font-size:7px;letter-spacing:.1em}
+  .nav-contact{display:none}
+  .mobile-menu{padding:9px 10px}
+  .hero{padding-top:34px}
+  .hero h1{font-size:clamp(32px,9vw,42px);letter-spacing:-.035em}
+  .hero-logo{display:none}
+  .grid,.products,.fields,.company-details{grid-template-columns:minmax(0,1fr)}
+  .quick{grid-template-columns:minmax(0,1fr)}
+  .quick a{padding:15px}
+  .card,.product{padding:18px}
+  .section-head h2{font-size:30px}
+  .actions{flex-direction:column}
+  .actions .btn{width:100%;flex:auto}
+  .form-card{padding:15px}
+  .field.full{grid-column:auto}
+  .admin-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .metric{padding:12px}
+  .metric b{font-size:23px}
+  .mobile-links:not([hidden]){grid-template-columns:minmax(0,1fr)}
+}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}}
 </style></head><body>
-<header class="top"><div class="wrap"><nav><a class="brand" href="#home"><img src="/logo.png" alt="Sastha Infinite logo"><span>SASTHA INFINITE<small>EXCELLENCE • INNOVATION</small></span></a><div class="links"><a href="#services">Services</a><a href="#products">Products</a><a href="#enquiry">Get a Quote</a><a href="#support">Support</a><a href="#company">Company</a></div><a class="btn" href="#enquiry">Contact Us ↗</a></nav></div></header>
+<header class="top"><div class="wrap"><nav><a class="brand" href="#home"><img src="/logo.png" alt="Sastha Infinite logo"><span>SASTHA INFINITE<small>EXCELLENCE • INNOVATION</small></span></a><div class="links"><a href="#services">Services</a><a href="#products">Products</a><a href="#enquiry">Get a Quote</a><a href="#company">Company</a></div><a class="btn nav-contact" href="#enquiry">Contact Us ↗</a><button class="mobile-menu" type="button" aria-expanded="false" aria-controls="mobileLinks" aria-label="Open navigation menu">☰ <span>Menu</span></button></nav><div class="mobile-links" id="mobileLinks" hidden><a href="#services">Services</a><a href="#products">Products</a><a href="#enquiry">Get a Quote</a><a href="#company">Company</a></div></div></header>
 <main>
 <section class="hero" id="home" style="border:0"><div class="wrap hero-grid"><div><div class="eyebrow">Your technology & business solutions partner</div><h1>Smart solutions.<br><span class="gold">Infinite possibilities.</span></h1><p class="lead">From IT systems and technical support to networking, security, printing and creative media — one trusted partner for your business and everyday needs.</p><div class="actions"><a class="btn" href="#services">Explore All Services ↓</a><a class="btn secondary" href="#enquiry">Request a Quotation</a></div><div class="trust"><span>IT Systems & Support</span><span>Business Solutions</span><span>Creative Services</span></div></div><div class="hero-logo"><img src="/logo.png" alt="Sastha Infinite Enterprise gold logo"></div></div>
 <div class="wrap quick"><a href="#enquiry"><strong>✦ Request a quote</strong><span>Tell us what you need</span></a><a href="#products"><strong>▦ Browse solutions</strong><span>See products & services</span></a></div></section>
@@ -33,6 +102,13 @@ const $=s=>document.querySelector(s);
 const api=async(url,options={})=>{const r=await fetch(url,{...options,headers:{'Content-Type':'application/json',...(options.headers||{})}});let d={};try{d=await r.json()}catch{}if(!r.ok)throw new Error(d.error||'Request failed');return d};
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 $('#year').textContent=new Date().getFullYear();
+const menuButton=document.querySelector('.mobile-menu');
+const mobileLinks=document.querySelector('#mobileLinks');
+if(menuButton&&mobileLinks){
+  menuButton.addEventListener('click',()=>{const open=menuButton.getAttribute('aria-expanded')!=='true';menuButton.setAttribute('aria-expanded',String(open));menuButton.setAttribute('aria-label',open?'Close navigation menu':'Open navigation menu');menuButton.innerHTML=open?'✕ <span>Close</span>':'☰ <span>Menu</span>';mobileLinks.hidden=!open;});
+  mobileLinks.querySelectorAll('a').forEach(link=>link.addEventListener('click',()=>{mobileLinks.hidden=true;menuButton.setAttribute('aria-expanded','false');menuButton.setAttribute('aria-label','Open navigation menu');menuButton.innerHTML='☰ <span>Menu</span>';}));
+}
+
 function formObj(form){return Object.fromEntries(new FormData(form).entries())}
 document.querySelectorAll('[data-service]').forEach(a=>a.addEventListener('click',()=>{const s=a.dataset.service;const sel=$('#eService');if(sel){if([...sel.options].some(o=>o.value===s))sel.value=s;else sel.value='Other';}}));
 $('#enquiryForm').addEventListener('submit',async e=>{e.preventDefault();const out=$('#enquiryResult');out.style.display='block';out.textContent='Submitting…';try{const data=formObj(e.target);data.company=$('#eCompany').value;const r=await api('/api/enquiries',{method:'POST',body:JSON.stringify(data)});out.innerHTML='<strong>Thank you — your enquiry has been received.</strong><br>Reference number: <strong>'+esc(r.reference)+'</strong><br>Please keep this reference for follow-up.';e.target.reset()}catch(err){out.textContent=err.message}});
